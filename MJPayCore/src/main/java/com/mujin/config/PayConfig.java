@@ -53,7 +53,7 @@ public class PayConfig {
      */
     @Bean
     public AliPayConfig createAliPayConfig() throws IOException, InvocationTargetException, NoSuchMethodException, InstantiationException, IllegalAccessException {
-        return PropertyLoadUtil.loadProperties(AliPayConfig.class, PropertyNameConstants.ALI_PAY_PROPERTY_NAME);
+        return PropertyLoadUtil.loadProperties(AliPayConfig.class, PropertyNameConstants.ALI_PAY_SUFFIX);
     }
 
 

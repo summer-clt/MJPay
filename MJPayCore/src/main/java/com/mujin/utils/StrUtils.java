@@ -64,6 +64,16 @@ public final class StrUtils {
     }
 
     /**
+     * 判断输入字符串不为空
+     *
+     * @param str 输入字符串
+     * @return boolean
+     */
+    public static boolean isNotBlack(String str) {
+        return !isBlank(str);
+    }
+
+    /**
      * 隐藏工具类的构造器
      */
     private StrUtils() {
